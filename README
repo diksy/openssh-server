@@ -1,0 +1,5 @@
+Simple Use (ssh password must be set manually by enter to the container):
+- docker run -p 221:22 -d diksy/openssh-server
+
+Use SSH Public Key:
+- docker run -p 221:22 -v /path/to/.ssh/dir:/root/.ssh -d diksy/openssh-server
